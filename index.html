@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XeOne</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+		<!--   CSS file included -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!-- cdn for fontawesome -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+		<!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+		<!-- FAVICONS ICON -->
+		<link rel="icon" type="image/png" href=" ">
+
+		<!-- cdn for ion icons used in side bar menu -->
+        <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>		
+        
+        <!-- jquery cdn -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+		<!-- for owl carasoul -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+        
+        <!--  animate.css cdn to use animations -->
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <!-- Using flat icons -->
+        <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+	</head>
+
+
+<body>
+   <section id="section1">
+   	        <div class="owl-carousel owl-theme" id="slider" onclick="closeNav()">
+                 <div class="item" id="item1">
+                 	  <div class="sliderText">
+                 		   <span class="text1">Next Big Thing</span>
+                 	       <span class="text2">In One Page</span>
+                 	       <span class="text3">The Best Multipurpose One Page Template In Market</span>
+                 	  </div>
+                 </div>
+
+                 <div class="item" id="item2">
+                 	  <div class="sliderText">
+                 		   <span class="text1">Next Big Thing</span>
+                 	       <span class="text2">In One Page</span>
+                 	       <span class="text3">The Best Multipurpose One Page Template In Market</span>
+                 	  </div>
+                 </div>
+
+                 <div class="item" id="item3">
+                 	  <div class="sliderText">
+                 		   <span class="text1">Next Big Thing</span>
+                 	       <span class="text2">In One Page</span>
+                 	       <span class="text3">The Best Multipurpose One Page Template In Market</span>
+                 	  </div>
+                 </div>
+            </div>
+
+            <div class="header-top" id="hdr">
+            	  <div class="logo">
+            	  	    <span class="xe">Xe</span><span class="one">One</span> <span class="dot">.</span>
+            	  </div>
+
+            	  <div class="ourNav">
+            	  	    <ul>
+            	  	    	 <li class="active"><a href="#section1">Home</a></li>
+            	  	    	 <li><a href="about.html">About Us</a></li>
+            	  	    	 <li><a href="services.html">Services</a></li>
+            	  	    	 <li><a href="#team">Team</a></li>
+            	  	    	 <li><a href="#portfolio">Portfolio</a></li>
+            	  	    	 <li><a href="contact.html">Contact Us</a></li>
+               	  	    </ul>
+            	  </div>
+
+            	   <div class="menubar" id="menu" onclick="openNav()">
+            	  	     <ion-icon name="list-outline"></ion-icon>
+            	   </div>
+
+            	   <!-- mobile responsive side nav -->
+            	   <div class="sideNav" id="sideNavv">
+            	   	    <div id="close" onclick="closeNav()">
+            	   	    	  <ion-icon name="close-circle-outline"></ion-icon>
+            	   	    </div>
+
+            	   	    <div id="design1">
+            	   	    	 <img src="images/design1.png">
+            	   	    </div>
+            	   	    
+            	  	    <ul>
+            	  	    	 <li><a href="#section1"><ion-icon name="home-outline"></ion-icon> Home</a></li>
+            	  	    	 <li><a href="about.html"><ion-icon name="person-circle-outline"></ion-icon> About Us</a></li>
+            	  	    	 <li><a href="services.html"><ion-icon name="timer-outline"></ion-icon> Services</a></li>
+            	  	    	 <li><a href="#team"><ion-icon name="people-circle-outline"></ion-icon> Team</a></li>
+            	  	    	 <li><a href="#portfolio"><ion-icon name="person-outline"></ion-icon> Portfolio</a></li>
+            	  	    	 <li><a href="contact.html"><ion-icon name="call-outline"></ion-icon> Contact Us</a></li>
+            	  	    </ul>
+
+            	  	    <div id="design1">
+            	   	    	 <img src="images/design1.png">
+            	   	    </div>
+                        
+            	  </div>
+            </div>
+                               	              <!--  goto top button -->
+            	   	    <div id="topButton">
+            	   	    	 <button><a href="#section1"><i class="fa fa-angle-up"></i></a></button>
+            	   	    </div>
+   </section>
+
+   <!--=============================================================================================
+    ==============================section1 bottom three div design started===================== -->
+   <section class="three-divs" onclick="closeNav()">
+   	        <div class="container">
+   	        	 <div class="row">
+   	        	 	    <div class="itm col-lg-4 col-md-4 col-10 mx-auto text-center" id="first-item">
+                               <ion-icon name="tv-outline"></ion-icon>
+           	        	 	   <h4>Fully Responsive</h4>
+   	        	 	    	   <p> The lorem generator is nice but it’s code completing functionality makes it indispensable.</p>
+   	        	 	    </div>
+
+   	        	 	     <div class="itm col-lg-4 col-md-4 col-10 mx-auto text-center" id="mid-item">
+                               <ion-icon name="documents-outline"></ion-icon>
+           	        	 	   <h4>Well documented</h4>
+   	        	 	    	   <p> The lorem generator is nice but it’s code completing functionality makes it indispensable.</p>
+   	        	 	    </div>
+
+   	        	 	    <div class="itm col-lg-4 col-md-4 col-10 mx-auto text-center" id="last-item">
+                               <ion-icon name="aperture-outline"></ion-icon>
+                               <h4>SEO Optimised</h4>
+   	        	 	    	   <p> The lorem generator is nice but it’s code completing functionality makes it indispensable.</p>
+   	        	 	    </div>
+   	        	 </div> 	        	
+   	        </div>
+   </section>
+   
+  
+     <!--=============================================================================================
+    ==============================section2 after three service we offer started===================== -->  
+  <section class="pb-5" onclick="closeNav()" id="features">
+  	  <div class="container feature">
+  	  	           <header>
+  	  	    	  	    <p class="text1">Service We Offer</p>
+  	  	    	  	    <p class="text2 mb-5">Awesome Features</p>
+  	  	    	  </header>
+  	  	    <div class="row">
+  	  	    	  <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 order-md-2 order-2">
+  	  	    	  	    <p class="text3 px-2">The lorem generator is nice but it’s code completing functionality makes it indispensable.The lorem generator is nice but it’s code completing functionality makes it indispensable</p>
+                        
+                        <button class="mx-2 featureButton">SEO TEAM</button>
+  	  	    	  </div>
+
+  	  	    	  <div class="col-lg-6 col-md-12 col-sm-12 feature-img order-lg-2 order-md-1 order-1">
+  	  	    	  	    <img src="images/awesome--feature.png">
+  	  	    	  </div>
+  	  	    </div>
+  	  </div>
+  </section>
+
+
+<!--=============================================================================================
+    ==============================Services section started===================== --> 
+<section class="section3 mt-5 py-5 services" onclick="closeNav()">
+	     <div class="container pt-5">
+	     	   <header>
+	     	   	       <p class="text1 text-center">Mobile Applications</p>
+	     	           <p class="text2 text-center">Yes we provide mobile applications with following features and services.</p>
+	     	   </header>
+         </div>	
+         
+         <div class="container-fluid"><!--  these two lines are to wrap left, middle and right three divs into one container -->
+               <div class="row">
+
+               	      <!--  left div in desktop view -->
+                      <div class="col-lg-4 col-md-12 col-12 item d-flex align-items-center">
+                      	   <div class="container-fluid d-lg-block flex-lg-nowrap d-md-inline-flex flex-md-wrap d-flex   flex-wrap">
+          
+	     	   	    	  	   <div class="row col-lg-12 col-md-6">
+	     	     	   	    	  	 <div class="sub-item-text text-lg-right text-md-center text-center col-lg-8 col-md-12 order-lg-1 order-md-2 order-2">
+	     	   	    	  	   	           <h5>Responsive Design</h5>
+	     	   	    	  	   	           <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+	     	   	    	  	         </div>
+
+	     	   	    	  	          <div class="sub-item-icon col-lg-4 col-md-12 order-lg-2 order-md-1 order-1 mb-lg-0 mb-md-2 mb-2">
+	     	   	    	  	          	     <div class="icon">
+	     	   	    	  	          	           <i class="fas fa-mobile-alt"></i>
+	     	   	    	  	          	     </div>
+	     	   	    	  	          </div>	   	    	  	   	     
+	     	   	    	  	   </div>
+
+
+	     	   	    	  	   <div class="row col-lg-12 col-md-6">
+	     	     	   	    	  	 <div class="sub-item-text text-lg-right text-md-center text-center col-lg-8 col-md-12 order-lg-1 order-md-2 order-2">
+	     	   	    	  	   	           <h5>Theme Options</h5>
+	     	   	    	  	   	           <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+	     	   	    	  	         </div>
+
+	     	   	    	  	          <div class="sub-item-icon col-lg-4 col-md-12 order-lg-2 order-md-1 order-1 mb-lg-0 mb-md-2 mb-2">
+	     	   	    	  	          	     <div class="icon">
+	     	   	    	  	          	           <i class="fas fa-cog"></i>
+	     	   	    	  	          	     </div>
+	     	   	    	  	          </div>	   	    	  	   	     
+	     	   	    	  	   </div>
+                             
+
+	     	   	    	  	   <div class="row col-lg-12 col-md-12">
+	     	     	   	    	  	 <div class="sub-item-text text-lg-right text-md-center text-center col-lg-8 col-md-12 order-lg-1 order-md-2 order-2">
+	     	   	    	  	   	           <h5>Easy to Customize</h5>
+	     	   	    	  	   	           <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+	     	   	    	  	         </div>
+
+	     	   	    	  	          <div class="sub-item-icon col-lg-4 col-md-12 order-lg-2 order-md-1 order-1 mb-lg-0 mb-md-2 mb-2">
+	     	   	    	  	          	     <div class="icon">
+	     	   	    	  	          	           <i class="far fa-edit"></i>
+	     	   	    	  	          	     </div>
+	     	   	    	  	          </div>	   	    	  	   	     
+	     	   	    	  	   </div>
+
+                            </div>
+                       </div>
+                      
+
+
+                      <!--  middle div in desktop view -->
+                      <div class="col-lg-4 col-md-12 col-12 item" id="middleItem">
+                      	    <div class="container-fluid d-flex justify-content-center">
+	     	   	    	  	   <div class="row">
+	     	   	         	           <img src="images/responsive.png">
+	     	   	    	  	   </div>
+	     	   	    	  	</div>
+                      </div>
+
+                      
+                      <!--  right div in desktop view -->
+                      <div class="col-lg-4 col-md-12 col-12 item d-flex align-items-center">
+                      	    <div class="container-fluid d-lg-block flex-lg-nowrap d-md-inline-flex flex-md-wrap d-flex   flex-wrap">
+
+         	   	    	    	<div class="row col-lg-12 col-md-12">
+	     	   	    	              <div class="sub-item-icon col-lg-4 col-md-12 order-lg-1 order-md-1 order-1 mb-lg-0 mb-md-2 mb-2">
+	     	   	    	  	          	     <div class="icon">
+	     	   	    	  	          	           <i class="fas fa-code"></i>
+	     	   	    	  	          	     </div>
+	     	   	    	  	          </div>
+       
+	     	   	    	              <div class="sub-item-text text-lg-left text-md-center text-center col-lg-8 col-md-12 order-lg-2 order-md-2 order-2">
+	     	   	    	  	          	    <h5>Powerful BackEnd</h5>
+	     	   	    	  	          	    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+	     	   	    	  	          </div>
+	     	   	    	  	    </div>
+
+
+	     	   	    	  	    <div class="row col-lg-12 col-md-6">
+	     	   	    	              <div class="sub-item-icon col-lg-4 col-md-12 order-lg-1 order-md-1 order-1 mb-lg-0 mb-md-2 mb-2">
+	     	   	    	  	          	     <div class="icon">
+	     	   	    	  	          	           <i class="far fa-folder"></i>
+	     	   	    	  	          	     </div>
+	     	   	    	  	          </div>
+       
+	     	   	    	              <div class="sub-item-text text-lg-left text-md-center text-center col-lg-8 col-md-12 order-lg-2 order-md-2 order-2" id="sub-item1">
+	     	   	    	  	          	    <h5>Well Documented</h5>
+	     	   	    	  	          	    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+	     	   	    	  	          </div>
+	     	   	    	  	    </div>
+
+
+	     	   	    	  	    <div class="row col-lg-12 col-md-6">
+	     	   	    	              <div class="sub-item-icon col-lg-4 col-md-12 order-lg-1 order-md-1 order-1 mb-lg-0 mb-md-2 mb-2">
+	     	   	    	  	          	     <div class="icon">
+	     	   	    	  	          	           <i class="far fa-life-ring"></i>
+	     	   	    	  	          	     </div>
+	     	   	    	  	          </div>
+       
+	     	   	    	              <div class="sub-item-text text-lg-left text-md-center text-center col-lg-8 col-md-12 order-lg-2 order-md-2 order-2" id="sub-item1">
+	     	   	    	  	          	    <h5>24/7 Support</h5>
+	     	   	    	  	          	    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+	     	   	    	  	          </div>
+	     	   	    	  	    </div>
+
+	     	   	            </div>
+                        </div>
+     	       
+     	       </div>
+     	    </div> 
+</section>
+
+<!--=============================================================================================
+    ==============================Team section started===================== --> 
+<section class="mt-4 pt-4 team" onclick="closeNav()" id="team">
+	     <div class="teamText text-center container pt-5">
+	     	  	    <p class="text1">Heros Behind The Company</p>
+	     	  	    <p class="text2">Creative Team</p>
+	     	  	    <p class="text3">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+	     </div>
+
+	     <div class="container mt-5 py-4">
+	     	  <div class="row">
+	     	  	    <div class="col-lg-4 col-md-6 col-12 item">
+	     	  	    	<div class="img-n-desc mx-3 my-5">
+	     	  	    	      <img src="images/team-1.jpg">
+	     	  	    	      <div class="image-desc">
+	     	  	    	  	        <p class="desc1">Jony Walkin.</p>
+	     	  	    	  	        <p class="desc2">CEO, The XeOne Company</p>
+	     	  	    	  	        <div class="icons text-center" id="icon1">
+								       <a href=" "target="_blank"> <i class="fab fa-facebook"></i> </a>
+								       <a href=" " target="_blank">  <i class="fab fa-twitter"></i> </a>
+								       <a href=" " target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
+							        </div>
+	     	  	    	      </div> 
+                        </div>
+	     	  	    </div>
+
+	     	  	    <div class="col-lg-4 col-md-6 col-12 item mt-lg-0 mt-md-0 mt-5">
+	     	  	    	 <div class="img-n-desc mx-3 my-5">
+	     	  	    	      <img src="images/team-2.jpg">
+	     	  	    	      <desc class="image-desc" id="second">
+	     	  	    	      	   <p class="desc1">Jony Walkin.</p>
+	     	  	    	      	   <p class="desc2">Designer, The XeOne Company</p>
+	     	  	    	      	   <div class="icons text-center" id="icon2">
+								       <a href=" "target="_blank"> <i class="fab fa-facebook"></i> </a>
+								       <a href=" " target="_blank">  <i class="fab fa-twitter"></i> </a>
+								       <a href=" " target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
+							        </div>
+	     	  	    	      </desc>
+	     	  	    	  </div>
+	     	  	    </div>
+
+	     	  	    <div class="col-lg-4 col-md-6 col-12 item mt-lg-0 mt-md-5 mt-5">
+	     	  	    	 <div class="img-n-desc mx-3 my-5">
+	     	  	    	        <img src="images/team-3.jpg">
+	     	  	    	        <div class="image-desc">
+	     	  	    	        	  <p class="desc1">Jony Walkin.</p>
+	     	  	    	        	  <p class="desc2">Model, The XeOne Company</p>
+	     	  	    	        	  <div class="icons text-center" id="icon3">
+								       <a href=" "target="_blank"> <i class="fab fa-facebook"></i> </a>
+								       <a href=" " target="_blank">  <i class="fab fa-twitter"></i> </a>
+								       <a href=" " target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
+							        </div>
+	     	  	    	        </div>
+	     	  	    	  </div>
+	     	  	    </div>
+	     	  </div>	     	
+	     </div>
+</section>
+
+
+<!--=============================================================================================
+    ==============================Portfolio section started===================== --> 
+  <section class="portfolio py-5" onclick="closeNav()" id="portfolio">
+  	       <div class="container pt-5">
+  	       	    <header class="text-center">
+	      	           <p class="text1">Portfolio Designs</p>
+	      	           <p class="text2">Creative Work</p>
+	      	           <p class="text3 mt-5 pr-4">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+	      	    </header>
+  	       </div>
+  	       
+  	       <div class="container py-5">
+			    <div class="row">
+			          <div class="col-lg-4 col-md-6 col-12  my-4 item">
+			             	<div class="wrapped">
+			             		<img src="images/gallery-flat1.jpg" alt="Repairing" class="img-fluid">
+			          	         <div class="text-center hoverContent">
+			          	         	   <div class="text">
+			          	         	   	     <p class="text1 pb-4">&#9734;</p>
+			          	         	   	     <p class="text2 pt-2">Roshan Bist</p>
+			          	         	         <p class="text3">This is my description.</p>
+			          	         	   </div>
+			          	         </div>
+			          	    </div>
+			          </div>
+
+			          <div class="col-lg-4 col-md-6 col-12  my-4 item">
+			             	<div class="wrapped">
+			             		<img src="images/gallery-flat1.jpg" alt="Repairing" class="img-fluid">
+			          	         <div class="text-center hoverContent">
+			          	         	   <div class="text">
+			          	         	   	     <p class="text1 pb-4">&#9734;</p>
+			          	         	   	     <p class="text2 pt-2">Roshan Bist</p>
+			          	         	         <p class="text3">This is my description.</p>
+			          	         	   </div>
+			          	         </div>
+			          	    </div>
+			          </div>
+
+			          <div class="col-lg-4 col-md-6 col-12  my-4 item">
+			             	<div class="wrapped">
+			             		<img src="images/gallery-flat1.jpg" alt="Repairing" class="img-fluid">
+			          	         <div class="text-center hoverContent">
+			          	         	   <div class="text">
+			          	         	   	     <p class="text1 pb-4">&#9734;</p>
+			          	         	   	     <p class="text2 pt-2">Roshan Bist</p>
+			          	         	         <p class="text3">This is my description.</p>
+			          	         	   </div>
+			          	         </div>
+			          	    </div>
+			          </div>
+
+			          <div class="col-lg-4 col-md-6 col-12  my-4 item">
+			             	<div class="wrapped">
+			             		<img src="images/gallery-flat1.jpg" alt="Repairing" class="img-fluid">
+			          	         <div class="text-center hoverContent">
+			          	         	   <div class="text">
+			          	         	   	     <p class="text1 pb-4">&#9734;</p>
+			          	         	   	     <p class="text2 pt-2">Roshan Bist</p>
+			          	         	         <p class="text3">This is my description.</p>
+			          	         	   </div>
+			          	         </div>
+			          	    </div>
+			          </div>
+
+			          <div class="col-lg-4 col-md-6 col-12  my-4 item">
+			             	<div class="wrapped">
+			             		<img src="images/gallery-flat1.jpg" alt="Repairing" class="img-fluid">
+			          	         <div class="text-center hoverContent">
+			          	         	   <div class="text">
+			          	         	   	     <p class="text1 pb-4">&#9734;</p>
+			          	         	   	     <p class="text2 pt-2">Roshan Bist</p>
+			          	         	         <p class="text3">This is my description.</p>
+			          	         	   </div>
+			          	         </div>
+			          	    </div>
+			          </div>
+
+			          <div class="col-lg-4 col-md-6 col-12  my-4 item">
+			             	<div class="wrapped">
+			             		<img src="images/gallery-flat1.jpg" alt="Repairing" class="img-fluid">
+			          	         <div class="text-center hoverContent">
+			          	         	   <div class="text">
+			          	         	   	     <p class="text1 pb-4">&#9734;</p>
+			          	         	   	     <p class="text2 pt-2">Roshan Bist</p>
+			          	         	         <p class="text3">This is my description.</p>
+			          	         	   </div>
+			          	         </div>
+			          	    </div>
+			          </div>
+
+
+		         </div>
+	       </div>
+  </section>
+
+
+
+<!--=============================================================================================
+    ==============================Slider section started===================== -->  
+<section class="mySlider mt-5" onclick="closeNav()" id="projects">
+	     <header class="text-center">
+	     	     <p class="text1">Our Projects</p>
+	     	     <p class="text2">We have successfully completed following Projects with best reviews from clients.</p>
+	     </header>
+	     <div class="owl-carousel owl-theme pt-3 sliderTwo">
+                 <div class="item">
+                 	  <img src="images/arrow-slide1.jpg">
+                 </div>
+
+                 <div class="item">
+                 	  <img src="images/arrow-slide2.jpg">
+                 </div>
+
+                 <div class="item">
+                 	  <img src="images/arrow-slide3.jpg">
+                 </div>
+
+                 <div class="item">
+                 	  <img src="images/arrow-slide1.jpg">
+                 </div>
+
+                 <div class="item">
+                 	  <img src="images/arrow-slide2.jpg">
+                 </div>
+         </div>
+</section>
+
+
+
+<!--=============================================================================================
+    ==============================Footer section started===================== -->
+ <section class="footer pt-5">
+ 	      <div class="container">
+ 	      	    <div class="row">
+                    
+                   <!--  Company div starts -->
+                    <div class="col-lg-3 col-md-6 col-6  order-lg-1 order-md-1 order-1 company">
+                          <div>
+            	  	            <span class="xe">Xe</span><span class="one">One</span> <span class="dot">.</span>
+            	  	            <br>
+            	  	            <p class="pt-4">We offer integral communication services, and we're responsible for our process and results. We thank each client and their projects.</p>
+            	          </div>
+
+            	          <div class="pt-2 links">
+                      	       <a href=" "target="_blank"> <i class="fab fa-facebook"></i> </a>
+							   <a href=" " target="_blank">  <i class="fab fa-twitter"></i> </a>
+							   <a href=" " target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
+                         </div>
+                    </div>
+
+
+ 	      	    	<!-- Useful Links started   -->
+ 	      	    	<div class="col-lg-3 col-md-6 col-6 order-lg-2 order-md-2 order-2 footerUsefulLinks">
+ 	      	    		 <div class="pb-4"><h3>Useful Links</h3></div>
+                          <ul class="px-2 pb-4">
+                          	  <li><a href="#section1">About Us</a></li>
+                          	  <li><a href="services.html">Services</a></li>
+                              <li><a href="#portfolio">Portfolio</a></li>
+                              <li><a href="#projects">Our Projects</a></li>
+                              <li><a href="#features">Our Features</a></li>
+                          </ul>
+ 	      	        </div>
+
+
+ 	      	        <!-- footer Useful Links finished and Our Services Started  -->
+ 	      	        <!-- same classes as above used to reduce css code -->
+ 	      	    	<div class="col-lg-3 col-md-6 col-6 order-lg-3 order-md-4 order-4 footerUsefulLinks">
+ 	      	    		 <div class="pb-4"><h3>Our Features</h3></div>
+                          <ul class="px-2 pb-4">
+                          	  <li><a href="">Responsive Design</a></li>
+                          	  <li><a href="">Powerful BackEnd</a></li>
+                              <li><a href="">Well Documented</a></li>
+                              <li><a href="">Theme Options</a></li>
+                              <li><a href="">Easy to Customize</a></li>
+                          </ul>
+ 	      	        </div>
+
+
+ 	      	       <!-- Footer contact us started -->
+                   <div class="col-lg-3 col-md-6 col-6 order-lg-4 order-md-3 order-3 footerContact">
+                   	     <div class="pb-4"><h3>Contact Us</h3></div>                 	     
+                   	     <div class="item">	      	    	  	   
+ 	      	    	  	   	    <div class="icon"><ion-icon name="location-outline" class="ion"></ion-icon></div>
+ 	      	    	  	   	    <div class="text">
+ 	      	    	  	   	    	  <h5>Address</h5>
+ 	      	    	  	   	    	  <a href="https://goo.gl/maps/dY3nfeQD6kpwd4sXA" target="_blank"><p>Mahendranagar, Nepal</p></a>
+ 	      	    	  	   	    </div>
+ 	      	    	     </div>
+
+ 	      	    	     <div class="item">	      	    	  	   
+ 	      	    	  	   	    <div class="icon"><ion-icon name="phone-portrait-outline"  class="ion"></ion-icon></div>
+ 	      	    	  	   	    <div class="text">
+ 	      	    	  	   	    	  <h5>Phone</h5>
+ 	      	    	  	   	    	  <a href="tel:9806470952"><p>9806470952</p></a>
+ 	      	    	  	   	    </div>
+ 	      	    	     </div>
+
+                         <div class="item">	      	    	  	   
+ 	      	    	  	   	    <div class="icon"><ion-icon name="mail-open-outline"  class="ion"></ion-icon></div>
+ 	      	    	  	   	    <div class="text">
+ 	      	    	  	   	    	  <h5>Mail</h5>
+ 	      	    	  	   	    	  <a href="mailto:roshanbist900@gmail.com"><p>roshanbist900@gmail.com</p></a>
+ 	      	    	  	   	    </div>
+ 	      	    	     </div>
+                    </div>
+
+ 	       </div>
+ 	  </div>
+
+ 	     <footer>
+  	       <div class="text-center text">COPYRIGHT © 2021 BY ROSHAN BIST.</div>
+         </footer>
+ </section>
+      <script type="text/javascript" src="index.js"></script>
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+     <!-- jquery cdn -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+     <!-- For auto slider/carasoul cdn js owl carosoul -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+     <!-- //========Jquery  plugins=============
+     // (uses the Owl Carousel library) -->
+    <script type="text/javascript">
+          $('#section1 .owl-carousel').owlCarousel({
+          loop:true,
+          margin:0,
+          autoplay:true,
+          nav:true,
+          autoplaySpeed: 2000,
+          autoplayTimeout: 8000,
+          dots:false,
+     
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:1
+              },
+              1000:{
+                  items:1
+              }
+          }
+        })
+        
+        // below jquery is same as jquery for slider just slightly changed
+        $('.sliderTwo').owlCarousel({
+          loop:true,
+          autoplay:true,
+          margin:20,
+          autoplaySpeed: 2000,
+          autoplayTimeout: 5000,
+          dots:true,
+          stagePadding:80,
+
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:2
+              },
+              1000:{
+                  items:3
+              }
+          }
+        })
+         
+    </script>
+</body>
+</html>

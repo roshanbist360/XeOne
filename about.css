@@ -1,0 +1,48 @@
+/*============== Our Goals section starts ================ */
+  #ficn span:before{ /*changing actual inbuild css*/
+    margin-left: 0;
+    font-size: 65px;
+    background: -webkit-linear-gradient(#f23f1f,#036ffc);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+
+  #ficn span{
+     width: 120px;
+     height: 100px;
+     display: inline-block;  /* if span inline element does not takes height width then this will provide*/
+  }
+
+.goal{
+   position: relative;
+   background: #000;
+   font-family: 'Roboto', sans-serif;
+ }
+
+ hr.solid{
+ 	border-top: 2px solid #fff;
+    width: 120px;
+ }
+  
+  .mygoal i{
+     background: #cc2200;
+     padding:10px;
+     border-radius: 25px;
+     font-size: 20px;
+  }
+
+  .mygoal{
+    background-repeat: no-repeat;
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    visibility: inherit;
+ }
+
+.mygoal h1{
+	color: #e64409;
+}
+
+/*============== Our Goals section ends ================ */
